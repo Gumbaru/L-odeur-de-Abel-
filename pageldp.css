@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: auto;
     padding: 0;
     box-sizing: border-box;
 }
@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: arial, sans-serif;
-    color: black;
+    color: white;
     height: 100vh;
     transform: translate(20px) ;
     size: over;
@@ -19,12 +19,12 @@ body {
 .box {
     margin-top: 200px;
     position:relative;
-<<<<<<< HEAD
-    width: 1300px ;
-=======
+
     width: 1000px ;
->>>>>>> 40408d0ce4cb85847574be7c0c7d3999778bb5d3
-    background: white;
+
+   
+
+    background: black;
     padding: 30px;
     transition: all 0.5s;
     z-index: 2;
@@ -34,7 +34,9 @@ body {
 h1{text-align: center;
 font-family:Arial, sans-serif;
 font-size: 60px;
-color: green}
+color: green;
+text-shadow: green 1px 0 10px;
+}
 
 nav {
     background-color: #fff;
@@ -95,6 +97,10 @@ align-items: center;}
     margin:100px;
 margin-right: 200px;}
 
+p{
+  color:white;
+  text-shadow: #FC0 1px 0 10px;
+}
 
 
 
